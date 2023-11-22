@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moviplex Cinema</title>
+
+    <!-- =========== BOOTSTRAP =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- ============== Font ============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+    <!-- =========== ICON ================ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- =========== MY CSS ============== -->
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/navbarbottom.css">
+    <link rel="stylesheet" href="src/css/carousel.css">
+
+  </head>
+  <body>
+    
+    <!-- =========== NAVBAR ============== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="nav-logo">
+        </a>
+        <button class="navbar-toggler collapsed d-flex flex-column justify-content-around d-none d-md-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#jumbotron">NOW PLAYING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">UP COMING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">THEATER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== BOOTOM NAVBAR MOBILE ========== -->
+    <nav class="bottom-navbar navbar-light border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom shadow">
+      <ul class="navbar-nav nav-justified w-100">
+          <li class="nav-item">
+              <a href="#" class="nav-link active">
+                <i class="bi bi-house-door"></i>
+                <span class="name-icon d-block">Home</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-collection-play"></i>
+                <span class="name-icon d-block">Playing</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-film"></i>
+                <span class="name-icon d-block">Up Coming</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-camera-reels"></i>
+                <span class="name-icon d-block">Theater</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-person-circle"></i>
+                <span class="name-icon d-block">My Moviplex</span>
+              </a>
+          </li>          
+      </ul>
+  </nav>
+  <!-- =========== End of Navbar ============== -->
+
+  <!-- =========== CAROUSEL ============== -->
+  <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="assets/img/slider1.png" class="d-block w-100" alt="slide1">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/slider2.png" class="d-block w-100" alt="slide2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/slider3.jpg" class="d-block w-100" alt="slide3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+  <!-- ============== End Of Carousel =============== -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
