@@ -16,10 +16,15 @@
     <!-- =========== ICON ================ -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
+    <!-- =========== OWL CAROUSEL ======== -->
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+
     <!-- =========== MY CSS ============== -->
     <link rel="stylesheet" href="src/css/navbar.css">
     <link rel="stylesheet" href="src/css/navbarbottom.css">
     <link rel="stylesheet" href="src/css/carousel.css">
+    <link rel="stylesheet" href="src/css/nowplaying.css">
 
   </head>
   <body>
@@ -30,7 +35,7 @@
         <a class="navbar-brand" href="#">
           <img src="assets/img/logo.png" alt="nav-logo">
         </a>
-        <button class="navbar-toggler collapsed d-flex flex-column justify-content-around d-none d-md-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed d-flex flex-column justify-content-around d-none d-md-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="toggler-icon top-bar"></span>
           <span class="toggler-icon middle-bar"></span>
           <span class="toggler-icon bottom-bar"></span>
@@ -52,7 +57,7 @@
     </nav>
 
     <!-- ========== BOOTOM NAVBAR MOBILE ========== -->
-    <nav class="bottom-navbar navbar-light border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom shadow">
+    <nav class="bottom-navbar navbar-light border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom shadow-lg">
       <ul class="navbar-nav nav-justified w-100">
           <li class="nav-item">
               <a href="#" class="nav-link active">
@@ -117,8 +122,178 @@
   </section>
   <!-- ============== End Of Carousel =============== -->
 
+  <!-- ============== NOW PLAYING =================== -->
+<section class="nowplaying" id="nowplaying">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h2 class="para">NOW PLAYING</h2>
+      </div>
+      <div class="col-4 text-center">
+        <a href="#" class="btn">Lihat Semua</a>
+      </div>
+    </div>
+    <div id="myCarousel" class="owl-carousel mx-auto text-center">
+
+      <div class="card shadow-sm   my-3">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 1"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+          <p class="card-text">Drama, Comedy</p>
+        </div>
+      </div>
+
+      <div class="card shadow-sm my-3">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film2.jpg"
+          
+          alt="Image 2"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+          <p class="card-text">Drama, Comedy</p>
+        </div>
+      </div>
+      
+      <div class="card shadow-sm my-3">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film4.jpg"
+          
+          alt="Image 3"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+          <p class="card-text">Drama, Comedy</p>
+        </div>
+      </div>
+
+      <div class="card shadow-sm my-3">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film3.jpg"
+          
+          alt="Image 4"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+          <p class="card-text">Drama, Comedy</p>
+        </div>
+      </div>
+
+      <div class="card shadow-sm my-3">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film5.jpg"
+          
+          alt="Image 5"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+          <p class="card-text">Drama, Comedy</p>
+        </div>
+      </div>
+
+      
+      
+      <!-- Add more cards as needed -->
+    </div>
+  </div>
+</section>
+<!-- Akhir Partnership -->
+
+<!-- ============== Up COMING =================== -->
+<section class="nowplaying" id="nowplaying">
+  <div class="container-fluid">
+    <h2 class="para">UP COMING</h2>
+    <div id="myCarousel" class="owl-carousel owl-theme mx-auto text-center">
+
+      <div class="card shadow">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 1"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+        </div>
+      </div>
+
+      <div class="card shadow">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 2"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+        </div>
+      </div>
+      
+      <div class="card shadow">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 3"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+        </div>
+      </div>
+
+      <div class="card shadow">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 4"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+        </div>
+      </div>
+      
+      <div class="card shadow">
+        <img
+        class="card-img-top"
+          src="assets/img/playing/film1.jpg"
+          
+          alt="Image 5"/>
+        <div class="card-body">
+          <h5 class="card-title">GAMPANG CUAN</h5>
+        </div>
+      </div>
+
+      
+      
+      <!-- Add more cards as needed -->
+    </div>
+  </div>
+</section>
+<!-- Akhir Partnership -->
 
 
+
+
+
+
+  <!--=========== OWL CAROUSEL JS ================= -->
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+  <!-- ================= JQUERY ================== -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Owl Carousel JS cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- =========== BOOSTRAP JS =================== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <!-- ================= MY JS =================== -->
+  <script src="src/js/owl-theme.js"></script>
+  <script src="src/js/owl-carousel.js"></script>
   </body>
 </html>
